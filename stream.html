@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_stream.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -19,17 +20,22 @@
 
 </header>
 
-<nav class="navabr navbar-expand-sm bg-dark navbar-dark sticky-top">
-  <ul class="navbar-nav">
-    <li class="nav-item active"><a class="nav-link" href="stream.html">Stream</a></li>
-    <li class="nav-item"><a class="nav-link" href="videos.html">Vidéos</a></li>
-    <li class="nav-item"><a class="nav-link" href="apropos.html">A propos</a></li>
-  </ul>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item active"><a class="nav-link" href="stream.html">Stream</a></li>
+      <li class="nav-item"><a class="nav-link" href="videos.html">Vidéos</a></li>
+      <li class="nav-item"><a class="nav-link" href="apropos.html">A propos</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="stream.html"><img src="images/favicon.png" alt="Logo" style="height: 40px"></a></li>
+    </ul>
+  </div>
 </nav>
 
 <section>
-  <div class="live">
-    <iframe src="https://player.twitch.tv/?channel=pleiadegaminghouse" frameborder="0" allowfullscreen="true" scrolling="no" height="500" width="900"></iframe><a href="https://www.twitch.tv/pleiadegaminghouse?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;"></a>
+  <div class="live col-xl-8">
+    <iframe src="https://player.twitch.tv/?channel=pleiadegaminghouse" frameborder="0" allowfullscreen="true" scrolling="no" height="500" width="900"></iframe>
     <iframe src="https://www.twitch.tv/pleiadegaminghouse/chat?popout=" frameborder="0" scrolling="no" height="500" width="350"></iframe>
   </div>
 </section>

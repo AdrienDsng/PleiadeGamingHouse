@@ -1,0 +1,6 @@
+.live{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 5%;
+}
