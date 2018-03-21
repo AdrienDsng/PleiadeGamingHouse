@@ -5,7 +5,7 @@
 
 .card{
   margin:auto;
-  height: 300px;
+  height: 600px;
 }
 
 #openButton{
@@ -20,6 +20,9 @@
   }
   #openButton{
     display: block;
+  }
+  .card{
+    height: 300px;
   }
 }
 .sidenav {
