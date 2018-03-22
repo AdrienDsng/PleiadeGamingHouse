@@ -3,7 +3,7 @@
   flex-direction: row;
   margin: auto;
   margin-top: 5%;
-  height: 56.25vw;
+  height: 60vh;
 }
 
 .icons{
@@ -16,11 +16,11 @@
 
 #liveFrame{
   width: 80%;
-  height: 56.25%;
+  height: 100%;
 }
 #chatFrame{
   width: 20%;
-  height: 56.25%;
+  height: 100%;
 }
 
 #openButton{
