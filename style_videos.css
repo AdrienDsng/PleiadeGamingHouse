@@ -1,6 +1,10 @@
 .card{
   margin:auto;
-  height: 600px;
+  height: 50vh;
+}
+
+#player{
+  height: 100%;
 }
 
 #openButton{
