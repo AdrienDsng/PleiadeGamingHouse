@@ -6,13 +6,6 @@
   height: 60vh;
 }
 
-.icons{
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  margin-top: 5%;
-  height: 56.25vw;
-}
 
 #liveFrame{
   width: 80%;
@@ -20,6 +13,14 @@
 }
 #chatFrame{
   width: 20%;
+  height: 100%;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 5vw;
   height: 100%;
 }
 
